@@ -1,11 +1,12 @@
 # 批量席位卡生成工具
 ==================
+
 batch banquet-card generator
 
 ## 环境
 
-Python 3.x
-Pillow库
+Python 3.x   
+Pillow库  
 Windows Platform
 
 ### 环境准备
