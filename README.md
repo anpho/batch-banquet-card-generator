@@ -3,11 +3,12 @@
 
 batch banquet-card generator
 
+用于批量生成席位卡，席位卡卡面大小为200mm x 100mm
+
 ## 环境
 
 Python 3.x   
 Pillow库  
-Windows Platform
 
 ### 环境准备
 
@@ -21,9 +22,10 @@ pip install Pillow
 ## 如何使用
 
 1. 下载source文件夹
-2. 将字体文件放到source文件夹内，命名为```fz.ttf``` ，参见```generate.py```第23行
-3. 编辑names.txt文件，每行一个姓名
-4. 运行 ```generate.py``` 以批量生成相关图片文件
+2. 将字体文件放到source文件夹内，命名为```fz.ttf``` ，参见```generate.py```第24行
+3. 按照 ```o.data.png```的样式，编辑背景后，保存为 ```o.data```
+4. 编辑names.txt文件，每行一个姓名
+5. 运行 ```generate.py``` 以批量生成相关图片文件
 
 ## 文件说明
 
